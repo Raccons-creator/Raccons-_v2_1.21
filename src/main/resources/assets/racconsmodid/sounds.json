@@ -1,0 +1,112 @@
+{
+  "scytheofink_use": {
+    "subtitle": "sounds.racconsmodid.scytheofink_use",
+    "sounds": [
+      "racconsmodid:scytheofink_use"
+    ]
+  },
+  "ink_portal_break": {
+    "subtitle": "sounds.racconsmodid.ink_portal_break",
+    "sounds": [
+      "racconsmodid:ink_portal_break"
+    ]
+  },
+  "ink_portal_step": {
+    "subtitle": "sounds.racconsmodid.ink_portal_step",
+    "sounds": [
+      "racconsmodid:ink_portal_step"
+    ]
+  },
+  "ink_portal_place": {
+    "subtitle": "sounds.racconsmodid.ink_portal_place",
+    "sounds": [
+      "racconsmodid:ink_portal_place"
+    ]
+  },
+  "ink_portal_hit": {
+    "subtitle": "sounds.racconsmodid.ink_portal_hit",
+    "sounds": [
+      "racconsmodid:ink_portal_hit"
+    ]
+  },
+  "ink_portal_fall": {
+    "subtitle": "sounds.racconsmodid.ink_portal_fall",
+    "sounds": [
+      "racconsmodid:ink_portal_fall"
+    ]
+  },
+
+
+  "ink_slide_break": {
+    "subtitle": "sounds.racconsmodid.ink_slide_break",
+    "sounds": [
+      "racconsmodid:ink_slide_break"
+    ]
+  },
+  "ink_slide_step": {
+    "subtitle": "sounds.racconsmodid.ink_slide_step",
+    "sounds": [
+      "racconsmodid:ink_slide_step"
+    ]
+  },
+  "ink_slide_place": {
+    "subtitle": "sounds.racconsmodid.ink_slide_place",
+    "sounds": [
+      "racconsmodid:ink_slide_place"
+    ]
+  },
+  "ink_slide_hit": {
+    "subtitle": "sounds.racconsmodid.ink_slide_hit",
+    "sounds": [
+      "racconsmodid:ink_slide_hit"
+    ]
+  },
+  "ink_slide_fall": {
+    "subtitle": "sounds.racconsmodid.ink_slide_fall",
+    "sounds": [
+      "racconsmodid:ink_slide_fall"
+    ]
+  },
+
+
+
+
+  "ink_melt_break": {
+    "subtitle": "sounds.racconsmodid.ink_melt_break",
+    "sounds": [
+      "racconsmodid:ink_melt_break"
+    ]
+  },
+  "ink_melt_step": {
+    "subtitle": "sounds.racconsmodid.ink_melt_step",
+    "sounds": [
+      "racconsmodid:ink_melt_step"
+    ]
+  },
+  "ink_melt_place": {
+    "subtitle": "sounds.racconsmodid.ink_melt_place",
+    "sounds": [
+      "racconsmodid:ink_melt_place"
+    ]
+  },
+  "ink_melt_hit": {
+    "subtitle": "sounds.racconsmodid.ink_melt_hit",
+    "sounds": [
+      "racconsmodid:ink_melt_hit"
+    ]
+  },
+  "ink_melt_fall": {
+    "subtitle": "sounds.racconsmodid.ink_melt_fall",
+    "sounds": [
+      "racconsmodid:ink_melt_fall"
+    ]
+  },
+  "surrounded_by_ink": {
+    "sounds": [
+      {
+        "name": "racconsmodid:surrounded_by_ink",
+        "stream": true
+      }
+    ]
+  }
+}

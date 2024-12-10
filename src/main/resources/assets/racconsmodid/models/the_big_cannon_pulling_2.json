@@ -1,0 +1,6 @@
+{
+  "parent": "racconsmodid:item/the_big_cannon",
+  "textures": {
+    "layer0": "racconsmodid:item/the_big_cannon_pulling_2"
+  }
+}

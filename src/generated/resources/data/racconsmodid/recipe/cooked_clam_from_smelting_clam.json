@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "cooked_clam",
+  "ingredient": {
+    "item": "racconsmodid:clam"
+  },
+  "result": {
+    "id": "racconsmodid:cooked_clam"
+  }
+}

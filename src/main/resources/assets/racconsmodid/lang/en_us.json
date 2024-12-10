@@ -1,0 +1,40 @@
+{
+  "item.racconsmodid.raccons_fur": "Raccon´s Fur",
+  "item.racconsmodid.clam": "Clam",
+  "item.racconsmodid.cooked_clam": "Cooked Clam",
+  "item.racconsmodid.ink": "InK",
+
+  "item.racconsmodid.surrounded_by_ink_disc": "-=Surrounded by Ink=-",
+  "item.racconsmodid.surrounded_by_ink_disc.desc": "Raccon´s World: Chapter 1 - Surrounded by Ink",
+
+  "item.racconsmodid.scytheofink": "Scythe Of Ink",
+  "item.racconsmodid.swordofink": "Psic Of Ink",
+  "item.racconsmodid.theshefer": "The Shefer",
+  "item.racconsmodid.the_big_cannon": "The Big Cannon",
+
+  "item.racconsmodid.raccons_1": "Raccon´s Hat",
+  "item.racconsmodid.raccons_2": "Raccon´s Cloak",
+  "item.racconsmodid.raccons_3": "Raccon´s Pants",
+  "item.racconsmodid.raccons_4": "Raccon´s Shoes",
+
+
+
+
+  "block.racconsmodid.ink_portal": "Ink Portal",
+  "block.racconsmodid.ink_slide": "Ink Slide",
+  "block.racconsmodid.ink_melt": "Ink Melt",
+
+
+
+  "creativetab.racconsmodid.rw_blocks_": "Raccon´s World - Blocks",
+  "creativetab.racconsmodid.rw_items_": "Raccon´s World - Items",
+
+  "tooltip.racconsmodid.schytheofink.shift_down": "The hell is from above KKKKKKKKK!!!",
+  "tooltip.racconsmodid.schytheofink": "§eShift§r For More Description",
+
+
+
+  "effect.racconsmodid.tkomk": "The Killer Of My King",
+
+  "enchantment.racconsmodid.sinky": "Sinky´s Enchantment"
+}

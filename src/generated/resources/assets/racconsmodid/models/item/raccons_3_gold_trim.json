@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "racconsmodid:item/raccons_3",
+    "layer1": "minecraft:trims/items/leggings_trim_gold"
+  }
+}

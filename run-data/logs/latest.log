@@ -1,0 +1,29 @@
+[09dez.2024 19:58:26.949] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\a23674\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, racconsmodid, --all, --output, C:\Users\a23674\Downloads\Raccons _v2_1.21\src\generated\resources, --existing, C:\Users\a23674\Downloads\Raccons _v2_1.21\src\main\resources]
+[09dez.2024 19:58:26.954] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[09dez.2024 19:58:26.956] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[09dez.2024 19:58:27.088] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[09dez.2024 19:58:27.258] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/a23674/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[09dez.2024 19:58:28.909] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[09dez.2024 19:58:30.323] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\a23674\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, racconsmodid, --all, --output, C:\Users\a23674\Downloads\Raccons _v2_1.21\src\generated\resources, --existing, C:\Users\a23674\Downloads\Raccons _v2_1.21\src\main\resources]
+[09dez.2024 19:58:39.976] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[09dez.2024 19:58:39.976] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[09dez.2024 19:58:40.022] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[09dez.2024 19:58:41.093] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [racconsmodid]
+[09dez.2024 19:58:41.266] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/a23674/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[09dez.2024 19:58:41.267] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/a23674/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_parchment_2024.07.28-1.21/forge-1.21-51.0.33_mapped_parchment_2024.07.28-1.21-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[09dez.2024 19:58:41.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[09dez.2024 19:58:41.940] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 491 ms
+[09dez.2024 19:58:41.941] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[09dez.2024 19:58:41.996] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 56 ms
+[09dez.2024 19:58:41.998] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id racconsmodid
+[09dez.2024 19:58:42.011] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id racconsmodid finished after 12 ms
+[09dez.2024 19:58:42.011] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id racconsmodid
+[09dez.2024 19:58:42.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id racconsmodid finished after 2 ms
+[09dez.2024 19:58:42.013] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: racconsmodid
+[09dez.2024 19:58:42.082] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: racconsmodid finished after 67 ms
+[09dez.2024 19:58:42.083] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: racconsmodid
+[09dez.2024 19:58:42.323] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: racconsmodid finished after 240 ms
+[09dez.2024 19:58:42.323] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[09dez.2024 19:58:42.350] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 26 ms
+[09dez.2024 19:58:42.351] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 903 ms
+[09dez.2024 19:58:42.356] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 79, old count: 79, new count: 80, removed stale: 0, written: 0
