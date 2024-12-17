@@ -1,14 +1,14 @@
 {
   "anvil_cost": 2,
   "description": {
-    "translate": "enchantment.racconsmodid.sinky"
+    "translate": "enchantment.racconsmodid.ink_followers"
   },
   "effects": {
     "minecraft:post_attack": [
       {
-        "affected": "attacker",
+        "affected": "victim",
         "effect": {
-          "type": "racconsmodid:sinky"
+          "type": "racconsmodid:ink_followers"
         },
         "enchanted": "attacker"
       }
@@ -19,7 +19,7 @@
     "base": 25,
     "per_level_above_first": 8
   },
-  "max_level": 1,
+  "max_level": 2,
   "min_cost": {
     "base": 9,
     "per_level_above_first": 8

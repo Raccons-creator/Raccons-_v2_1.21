@@ -10,5 +10,5 @@ public class RacconsModFoods {
                     .nutrition(10)
                     .saturationModifier(0.75f)
                     .alwaysEdible()
-                    .effect(new MobEffectInstance(MobEffects.SATURATION, 1000),0.11f).build();
+                    .effect(new MobEffectInstance(MobEffects.SATURATION, 1000),0.41f).build();
 }

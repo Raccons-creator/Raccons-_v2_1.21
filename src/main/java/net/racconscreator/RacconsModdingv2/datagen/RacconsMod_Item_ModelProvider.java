@@ -1,9 +1,11 @@
 package net.racconscreator.RacconsModdingv2.datagen;
 
+import net.minecraft.client.renderer.block.model.ItemModelGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
+import net.minecraft.world.entity.Display;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
@@ -16,6 +18,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.racconscreator.RacconsModdingv2.RacconsModItems.RacconsItems;
 import net.racconscreator.RacconsModdingv2.RacconsModdingv2;
 
+import javax.xml.crypto.dsig.Transform;
 import java.util.LinkedHashMap;
 
 public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
@@ -40,9 +43,8 @@ public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         //combat
-        handheldItem(RacconsItems.THESHEFER);
-        handheldItem(RacconsItems.SCYTHEOFINK);
         handheldItem(RacconsItems.SWORDOFINK);
+        handheldItem(RacconsItems.THESHEFER);
 
         //Item
         basicItem(RacconsItems.INK.get());

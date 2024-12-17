@@ -2,27 +2,27 @@
   "parent": "minecraft:item/handheld",
   "display": {
     "thirdperson_righthand": {
-      "rotation": [ 0, -90, 65 ],
-      "translation": [ 0, 4.0, 0.5 ],
+      "rotation": [ 0, -90, 35 ],
+      "translation": [ 0, 3.0, 0.5 ],
       "scale": [ 1.8, 1.8, 1.8 ]
     },
     "thirdperson_lefthand": {
-      "rotation": [ 0, 90, -65 ],
-      "translation": [ 0, 4.0, 0.5 ],
+      "rotation": [ 0, 90, -35 ],
+      "translation": [ 0, 3.0, 0.5 ],
       "scale": [ 1.8, 1.8, 1.8 ]
     },
     "firstperson_righthand": {
-      "rotation": [ 0, -90, 39 ],
-      "translation": [ 1.13, 3.2, 1.13 ],
+      "rotation": [ 0, -90, 9 ],
+      "translation": [ 1.13, 2.2, 1.13 ],
       "scale": [ 1.8, 1.8, 1.8 ]
     },
     "firstperson_lefthand": {
-      "rotation": [ 0, 90, -39 ],
-      "translation": [ 1.13, 3.2, 1.13 ],
+      "rotation": [ 0, 90, -9 ],
+      "translation": [ 1.13, 2.2, 1.13 ],
       "scale": [ 1.8, 1.8, 1.8 ]
     }
   },
   "textures": {
-    "layer0": "racconsmodid:item/theshefer"
+    "layer0": "racconsmodid:item/scytheofink"
   }
 }

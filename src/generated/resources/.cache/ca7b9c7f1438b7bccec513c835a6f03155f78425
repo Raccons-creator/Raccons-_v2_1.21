@@ -1,2 +1,6 @@
-// 1.21	2024-12-05T23:27:05.5042029	Tags for minecraft:item mod id racconsmodid
+// 1.21	2024-12-17T03:12:42.2904927	Tags for minecraft:item mod id racconsmodid
+db44a0f16c2f496a751ef23c1b68727bdc2e5b3e data/minecraft/tags/item/enchantable/armor.json
+43fc0a0d1984ebd9479e394fa601c83f736d61f5 data/minecraft/tags/item/enchantable/sharp_weapon.json
+43fc0a0d1984ebd9479e394fa601c83f736d61f5 data/minecraft/tags/item/enchantable/sword.json
+43fc0a0d1984ebd9479e394fa601c83f736d61f5 data/minecraft/tags/item/enchantable/weapon.json
 db44a0f16c2f496a751ef23c1b68727bdc2e5b3e data/minecraft/tags/item/trimmable_armor.json

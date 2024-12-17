@@ -28,5 +28,28 @@ public class RacconsMod_ItemsTagsProvider extends ItemTagsProvider {
                 .add(RacconsItems.Raccons_3.get())
         .add(RacconsItems.Raccons_4.get());
 
+        tag(ItemTags.WEAPON_ENCHANTABLE)
+                .add(RacconsItems.SCYTHEOFINK.get())
+        .add(RacconsItems.SWORDOFINK.get());
+
+        tag(ItemTags.SWORD_ENCHANTABLE)
+                .add(RacconsItems.SCYTHEOFINK.get())
+                .add(RacconsItems.SWORDOFINK.get());
+
+        tag(ItemTags.SHARP_WEAPON_ENCHANTABLE)
+                .add(RacconsItems.SCYTHEOFINK.get())
+                .add(RacconsItems.SWORDOFINK.get());
+
+        tag(ItemTags.ARMOR_ENCHANTABLE)
+                .add(RacconsItems.Raccons_1.get())
+                .add(RacconsItems.Raccons_2.get())
+                .add(RacconsItems.Raccons_3.get())
+                .add(RacconsItems.Raccons_4.get());
+
+        tag(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(RacconsItems.Raccons_1.get())
+                .add(RacconsItems.Raccons_2.get())
+                .add(RacconsItems.Raccons_3.get())
+                .add(RacconsItems.Raccons_4.get());
     }
 }

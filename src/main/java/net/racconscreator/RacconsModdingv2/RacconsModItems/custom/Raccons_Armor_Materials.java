@@ -23,8 +23,8 @@ public class Raccons_Armor_Materials {
     public static final Holder<ArmorMaterial> RACCONS_ARMOR_MATERIAL = register("raccons_fur", Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute ->{
                 attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
+                attribute.put(ArmorItem.Type.LEGGINGS, 8);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 10);
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 11);
             }), 15, 4f, 0.1f, () -> RacconsItems.RACCONS_FUR.get());

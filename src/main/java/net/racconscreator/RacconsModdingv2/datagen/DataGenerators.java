@@ -32,8 +32,8 @@ public class DataGenerators {
         BlockTagsProvider blockTagsProvider = new RacconsMod_BlocksTagsProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new RacconsMod_ItemsTagsProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
-
         generator.addProvider(event.includeClient(), new RacconsMod_Item_ModelProvider(packOutput, existingFileHelper));
+
         generator.addProvider(event.includeClient(), new RacconsMod_BlocksStateProvider(packOutput, existingFileHelper));
 
         generator.addProvider(event.includeServer(), new Raccons_DataEntries(packOutput, lookupProvider));

@@ -52,22 +52,22 @@ public class RacconsItems {
     public static final RegistryObject<Item> Raccons_1 =
             ITEMS.register("raccons_1",
                     () -> new ArmorItem(Raccons_Armor_Materials.RACCONS_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                            new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(490))));
+                            new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(690))));
 
     public static final RegistryObject<Item> Raccons_2 =
             ITEMS.register("raccons_2",
                     () -> new ArmorItem(Raccons_Armor_Materials.RACCONS_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                            new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(490))));
+                            new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(790))));
 
     public static final RegistryObject<Item> Raccons_3 =
             ITEMS.register("raccons_3",
                     () -> new ArmorItem(Raccons_Armor_Materials.RACCONS_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                            new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(490))));
+                            new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(790))));
 
     public static final RegistryObject<Item> Raccons_4 =
             ITEMS.register("raccons_4",
                     () -> new ArmorItem(Raccons_Armor_Materials.RACCONS_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                            new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(490))));
+                            new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(691))));
 
     //PvP
     public static final RegistryObject<Item> SCYTHEOFINK =
