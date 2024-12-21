@@ -3,6 +3,7 @@
   "item.racconsmodid.clam": "Clam",
   "item.racconsmodid.cooked_clam": "Cooked Clam",
   "item.racconsmodid.ink": "InK",
+  "item.racconsmodid.racconspawnegg": "Raccon´s Spawn Egg =3",
 
   "item.racconsmodid.surrounded_by_ink_disc": "-=Surrounded by Ink=-",
   "item.racconsmodid.surrounded_by_ink_disc.desc": "Raccon´s World: Chapter 1 - Surrounded by Ink",
@@ -32,9 +33,13 @@
   "tooltip.racconsmodid.schytheofink.shift_down": "The hell is from above KKKKKKKKK!!!",
   "tooltip.racconsmodid.schytheofink": "§eShift§r For More Description",
 
-
+  "tooltip.racconsmodid.theshefer.shift_down": "Looks like im dead =3",
+  "tooltip.racconsmodid.theshefer": "§eShift§r For More Description",
 
   "effect.racconsmodid.tkomk": "The Killer Of My King",
 
-  "enchantment.racconsmodid.ink_followers": "Ink´s Followers Enchantment"
+  "enchantment.racconsmodid.ink_followers": "Ink´s Followers Enchantment",
+
+"entity.racconsmodid.raccon": "-=Raccon=-"
+
 }

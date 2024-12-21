@@ -61,6 +61,8 @@ public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
         trimmedArmorItem(RacconsItems.Raccons_2);
         trimmedArmorItem(RacconsItems.Raccons_3);
         trimmedArmorItem(RacconsItems.Raccons_4);
+
+        withExistingParent(RacconsItems.RacconSpawnEgg.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     // Shoutout to El_Redstoniano for making this

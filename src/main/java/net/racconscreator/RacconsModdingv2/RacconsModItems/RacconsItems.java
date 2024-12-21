@@ -4,6 +4,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,8 +13,10 @@ import net.racconscreator.RacconsModdingv2.RacconsModItems.Food.RacconsModFoods;
 import net.racconscreator.RacconsModdingv2.RacconsModItems.custom.Raccons_Armor_Materials;
 import net.racconscreator.RacconsModdingv2.RacconsModItems.custom.Raccons_Tier_Tools;
 import net.racconscreator.RacconsModdingv2.RacconsModItems.custom.SchyteofInk_Item;
+import net.racconscreator.RacconsModdingv2.RacconsModItems.custom.TheShefer_Item;
 import net.racconscreator.RacconsModdingv2.RacconsModdingv2;
 import net.racconscreator.RacconsModdingv2.RacconsSound.Raccons_Sounds;
+import net.racconscreator.RacconsModdingv2.entity.Raccons_Entities;
 
 public class RacconsItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -86,13 +89,20 @@ public class RacconsItems {
 
     public static final RegistryObject<Item> THESHEFER =
             ITEMS.register("theshefer",
-                    () -> new Item(new Item.Properties()
+                    () -> new TheShefer_Item(new Item.Properties()
                             .attributes(SwordItem.createAttributes(Raccons_Tier_Tools.SST, -9, -2.8f)
                     )));
 
     public static final RegistryObject<Item> THE_BIG_CANNON =
             ITEMS.register("the_big_cannon",
                     () -> new BowItem(new Item.Properties().durability(2890)));
+
+
+    public static final RegistryObject<Item> RacconSpawnEgg =
+            ITEMS.register("racconspawnegg",
+                    () -> new ForgeSpawnEggItem(Raccons_Entities.RACCON, 0x53524b, 0xdac741, new Item.Properties())
+
+                    );
 
     //END
     public static void register(IEventBus eventBus) {

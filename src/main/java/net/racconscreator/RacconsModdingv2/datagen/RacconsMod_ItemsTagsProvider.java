@@ -51,5 +51,18 @@ public class RacconsMod_ItemsTagsProvider extends ItemTagsProvider {
                 .add(RacconsItems.Raccons_2.get())
                 .add(RacconsItems.Raccons_3.get())
                 .add(RacconsItems.Raccons_4.get());
+
+        tag(ItemTags.FOOT_ARMOR_ENCHANTABLE)
+                .add(RacconsItems.Raccons_4.get());
+
+        tag(ItemTags.HEAD_ARMOR_ENCHANTABLE)
+                .add(RacconsItems.Raccons_1.get());
+
+        tag(ItemTags.CHEST_ARMOR_ENCHANTABLE)
+                .add(RacconsItems.Raccons_2.get());
+
+        tag(ItemTags.LEG_ARMOR_ENCHANTABLE)
+                .add(RacconsItems.Raccons_3.get());
+
     }
 }

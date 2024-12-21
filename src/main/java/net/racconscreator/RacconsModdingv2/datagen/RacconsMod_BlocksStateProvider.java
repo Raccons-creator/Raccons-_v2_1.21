@@ -4,6 +4,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CarpetBlock;
+import net.minecraft.world.level.block.WoolCarpetBlock;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ModelFile;
@@ -28,6 +29,7 @@ public class RacconsMod_BlocksStateProvider extends BlockStateProvider {
         blockItem(RacconsBlocks.INK_PORTAL, "_bottom");
         blockItem(RacconsBlocks.INK_SLIDE, "_bottom");
         blockItem(RacconsBlocks.INK_MELT, "_bottom");
+
 
     }
     private void blockwithItem(RegistryObject<Block> blockRegistryObject) {

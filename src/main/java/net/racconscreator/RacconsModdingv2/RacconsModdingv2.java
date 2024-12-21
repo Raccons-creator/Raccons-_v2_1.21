@@ -2,6 +2,8 @@ package net.racconscreator.RacconsModdingv2;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -22,6 +24,8 @@ import net.racconscreator.RacconsModdingv2.RacconsModItems.RacconsModCreativeTab
 import net.racconscreator.RacconsModdingv2.RacconsSound.Raccons_Sounds;
 import net.racconscreator.RacconsModdingv2.effect.Raccons_Effects;
 import net.racconscreator.RacconsModdingv2.enchantment.Raccons_Enchantments_Effects;
+import net.racconscreator.RacconsModdingv2.entity.Raccons_Entities;
+import net.racconscreator.RacconsModdingv2.entity.client.RacconRenderer;
 import org.slf4j.Logger;
 
 @Mod(RacconsModdingv2.MODID)
@@ -41,6 +45,7 @@ public class RacconsModdingv2
         Raccons_Sounds.register(modEventBus);
         Raccons_Effects.register(modEventBus);
         Raccons_Enchantments_Effects.register(modEventBus);
+        Raccons_Entities.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
@@ -80,11 +85,14 @@ public class RacconsModdingv2
     }
     @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
+
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
+            EntityRenderers.register(Raccons_Entities.RACCON.get(), RacconRenderer::new);
         }
     }
 }
