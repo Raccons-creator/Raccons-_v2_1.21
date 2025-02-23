@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "racconsmodid:raccons_mask"
+    },
+    "X": {
+      "item": "minecraft:glow_ink_sac"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XAX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "racconsmodid:raccons_mask_glow"
+  }
+}

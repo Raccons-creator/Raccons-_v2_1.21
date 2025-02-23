@@ -130,23 +130,9 @@ public class RacconAnimations {
                                     AnimationChannel.Interpolations.LINEAR),
                             new Keyframe(0.9167666f, KeyframeAnimations.degreeVec(0f, -5f, 0f),
                                     AnimationChannel.Interpolations.LINEAR))).build();
+
+
     public static final AnimationDefinition IDLE_ = AnimationDefinition.Builder.withLength(0.75f).looping()
-            .addAnimation("head",
-                    new AnimationChannel(AnimationChannel.Targets.ROTATION,
-                            new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, 5f),
-                                    AnimationChannel.Interpolations.LINEAR),
-                            new Keyframe(0.041676664f, KeyframeAnimations.degreeVec(0f, 0f, 10f),
-                                    AnimationChannel.Interpolations.LINEAR),
-                            new Keyframe(0.08343333f, KeyframeAnimations.degreeVec(0f, 0f, 12.5f),
-                                    AnimationChannel.Interpolations.LINEAR),
-                            new Keyframe(0.125f, KeyframeAnimations.degreeVec(0f, 0f, 20f),
-                                    AnimationChannel.Interpolations.LINEAR),
-                            new Keyframe(0.20834334f, KeyframeAnimations.degreeVec(0f, 0f, 0f),
-                                    AnimationChannel.Interpolations.LINEAR),
-                            new Keyframe(0.25f, KeyframeAnimations.degreeVec(0f, 0f, -10f),
-                                    AnimationChannel.Interpolations.LINEAR),
-                            new Keyframe(0.2916767f, KeyframeAnimations.degreeVec(0f, 0f, 2.5f),
-                                    AnimationChannel.Interpolations.LINEAR)))
             .addAnimation("tail",
                     new AnimationChannel(AnimationChannel.Targets.ROTATION,
                             new Keyframe(0f, KeyframeAnimations.degreeVec(0f, 0f, -7.5f),

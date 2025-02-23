@@ -100,13 +100,5 @@
     "sounds": [
       "racconsmodid:ink_melt_fall"
     ]
-  },
-  "surrounded_by_ink": {
-    "sounds": [
-      {
-        "name": "racconsmodid:surrounded_by_ink_disc",
-        "stream": true
-      }
-    ]
   }
 }

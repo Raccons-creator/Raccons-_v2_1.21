@@ -1,6 +1,5 @@
 package net.racconscreator.RacconsModdingv2.enchantment;
 
-import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.enchantment.effects.EnchantmentEntityEffect;

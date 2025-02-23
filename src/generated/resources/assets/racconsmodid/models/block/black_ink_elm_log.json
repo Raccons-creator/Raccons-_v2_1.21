@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "racconsmodid:block/black_ink_elm_log_top",
+    "side": "racconsmodid:block/black_ink_elm_log"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "racconsmodid:block/test_block"
+    },
+    "facing=south": {
+      "model": "racconsmodid:block/test_block",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "racconsmodid:block/test_block",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "racconsmodid:block/test_block",
+      "y": 270
+    }
+  }
+}

@@ -21,5 +21,27 @@ public class RacconsMod_BlocksTagsProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_IRON_TOOL).add(RacconsBlocks.INK_SLIDE.get());
         tag(BlockTags.NEEDS_IRON_TOOL).add(RacconsBlocks.INK_PORTAL.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(RacconsBlocks.Blushing_Ash_Log.get())
+                .add(RacconsBlocks.Blushing_Ash_Wood.get())
+                .add(RacconsBlocks.Stripped_Blushing_Ash_log.get())
+                .add(RacconsBlocks.Stripped_Blushing_Ash_wood.get());
+
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(RacconsBlocks.Black_Ink_Elm_Log.get())
+                .add(RacconsBlocks.Black_Ink_Elm_Wood.get())
+                .add(RacconsBlocks.Stripped_Black_Ink_Elm_log.get())
+                .add(RacconsBlocks.Stripped_Black_Ink_Elm_wood.get());
+
+        tag(BlockTags.FENCES)
+                .add(RacconsBlocks.Blushing_Ash_Fence.get())
+                .add(RacconsBlocks.Black_Ink_Elm_Fence.get());
+
+        tag(BlockTags.FENCE_GATES)
+                .add(RacconsBlocks.Blushing_Ash_Fence_Gate.get())
+                .add(RacconsBlocks.Black_Ink_Elm_Fence_Gate.get());
+
+
     }
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "racconsmodid:block/stripped_blushing_ash_log_top",
+    "side": "racconsmodid:block/stripped_blushing_ash_log"
+  }
+}

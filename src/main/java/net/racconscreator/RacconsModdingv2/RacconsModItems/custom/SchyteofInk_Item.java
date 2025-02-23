@@ -1,25 +1,26 @@
 package net.racconscreator.RacconsModdingv2.RacconsModItems.custom;
 
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.particles.BlockParticleOption;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
 import net.racconscreator.RacconsModdingv2.RacconsModBlocks.RacconsBlocks;
 import net.racconscreator.RacconsModdingv2.RacconsSound.Raccons_Sounds;
-import org.joml.Matrix2d;
 
 import java.util.List;
 import java.util.Map;
@@ -55,6 +56,10 @@ public class SchyteofInk_Item extends Item {
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
                 level.playSound(null, pContext.getClickedPos(), Raccons_Sounds.SCYTHEOFINK_USE.get(), SoundSource.BLOCKS);
+
+                ((ServerLevel) level).sendParticles(new BlockParticleOption(ParticleTypes.BLOCK, clickedBlock.defaultBlockState()),
+                        pContext.getClickedPos().getX() + 0.5, pContext.getClickedPos().getY() + 0.5,
+                        pContext.getClickedPos().getZ() + 0.5, 10, 0,0,0, 1);
             }
         }
 
@@ -68,6 +73,11 @@ public class SchyteofInk_Item extends Item {
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.racconsmodid.schytheofink"));
         }
+    }
+
+    @Override
+    public boolean canAttackBlock(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer) {
+        return !pPlayer.isCreative();
     }
 }
 

@@ -35,6 +35,64 @@ public class RacconsMod_BlocksLootTableProvider extends BlockLootSubProvider {
                 block -> createMultipleOreDrops(RacconsBlocks.INK_PORTAL.get(), RacconsItems.INK.get(), 1, 2));
 
 
+        //Blushing Ash
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Log.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Wood.get());
+        this.dropSelf(RacconsBlocks.Stripped_Blushing_Ash_log.get());
+        this.dropSelf(RacconsBlocks.Stripped_Blushing_Ash_wood.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Planks.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Sapplings.get());
+
+        this.add(RacconsBlocks.Blushing_Ash_Leaves.get(), block ->
+                createLeavesDrops(block, RacconsBlocks.Blushing_Ash_Sapplings.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+
+        //Black Ink Elm
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Log.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Wood.get());
+        this.dropSelf(RacconsBlocks.Stripped_Black_Ink_Elm_log.get());
+        this.dropSelf(RacconsBlocks.Stripped_Black_Ink_Elm_wood.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Planks.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Sappling.get());
+
+        this.add(RacconsBlocks.Black_Ink_Elm_Leaves.get(), block ->
+                createLeavesDrops(block, RacconsBlocks.Black_Ink_Elm_Sappling.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+
+        //Black Ink Elm Multiple things =3
+
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Stairs.get());
+
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_pressure_plate.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_button.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Fence.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_Fence_Gate.get());
+        this.dropSelf(RacconsBlocks.Black_Ink_Elm_TrapDoor.get());
+
+        this.add(RacconsBlocks.Black_Ink_Elm_Slab.get(),
+                block -> createSlabItemTable(RacconsBlocks.Black_Ink_Elm_Slab.get()));
+
+        this.add(RacconsBlocks.Black_Ink_Elm_Door.get(),
+                block -> createDoorTable(RacconsBlocks.Black_Ink_Elm_Door.get()));
+
+
+        //Blushing Ash Multiple things =3
+
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Stairs.get());
+
+        this.dropSelf(RacconsBlocks.Blushing_Ash_pressure_plate.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_button.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Fence.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_Fence_Gate.get());
+        this.dropSelf(RacconsBlocks.Blushing_Ash_TrapDoor.get());
+
+        this.add(RacconsBlocks.Blushing_Ash_Slab.get(),
+                block -> createSlabItemTable(RacconsBlocks.Blushing_Ash_Slab.get()));
+
+        this.add(RacconsBlocks.Blushing_Ash_Door.get(),
+                block -> createDoorTable(RacconsBlocks.Blushing_Ash_Door.get()));
+
+
     }
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {
         HolderLookup.RegistryLookup<Enchantment> registrylookup = this.registries.lookupOrThrow(Registries.ENCHANTMENT);

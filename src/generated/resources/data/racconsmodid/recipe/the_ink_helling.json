@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "H": {
+      "item": "minecraft:experience_bottle"
+    },
+    "L": {
+      "item": "racconsmodid:ink"
+    },
+    "M": {
+      "item": "minecraft:sugar"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Z": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "pattern": [
+    "MXB",
+    "ZAZ",
+    "LHL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "racconsmodid:the_ink_helling"
+  }
+}

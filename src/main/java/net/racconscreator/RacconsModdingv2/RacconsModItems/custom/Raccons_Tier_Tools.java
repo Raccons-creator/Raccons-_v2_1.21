@@ -12,4 +12,8 @@ public class Raccons_Tier_Tools {
     public static final Tier SST = new ForgeTier(2987,5, 24f,20,
             RacconsTags.Blocks.NEEDS_NETH_TOOL, () -> Ingredient.of(Items.NETHERITE_SCRAP),
             RacconsTags.Blocks.INCORRECT_TOOL);
+
+    public static final Tier THESHERFER_TIER = new ForgeTier(2987,5, 16f,20,
+            RacconsTags.Blocks.NEEDS_NETH_TOOL, () -> Ingredient.of(Items.NETHERITE_SCRAP),
+            RacconsTags.Blocks.INCORRECT_TOOL);
 }

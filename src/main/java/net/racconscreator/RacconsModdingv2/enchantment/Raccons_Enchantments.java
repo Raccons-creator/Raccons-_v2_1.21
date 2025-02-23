@@ -21,6 +21,8 @@ public class Raccons_Enchantments {
         var enchantments = context.lookup(Registries.ENCHANTMENT);
         var items = context.lookup(Registries.ITEM);
 
+
+        //INK FOLLOWERS
         register(context, INKFOLLOWERS, Enchantment.enchantment(Enchantment.definition(
                         items.getOrThrow(ItemTags.WEAPON_ENCHANTABLE),
                         items.getOrThrow(ItemTags.SWORD_ENCHANTABLE),
@@ -34,7 +36,6 @@ public class Raccons_Enchantments {
                 .exclusiveWith(enchantments.getOrThrow(EnchantmentTags.DAMAGE_EXCLUSIVE))
                 .withEffect(EnchantmentEffectComponents.POST_ATTACK, EnchantmentTarget.ATTACKER,
                         EnchantmentTarget.VICTIM, new InkFollowers()));
-
     }
 
     private static void register(BootstrapContext<Enchantment> registry, ResourceKey<Enchantment> key, Enchantment.Builder builder) {

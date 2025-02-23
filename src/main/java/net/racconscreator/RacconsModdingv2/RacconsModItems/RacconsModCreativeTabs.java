@@ -29,7 +29,6 @@ public class RacconsModCreativeTabs {
                         output.accept(RacconsItems.Raccons_2.get());
                         output.accept(RacconsItems.Raccons_3.get());
                         output.accept(RacconsItems.Raccons_4.get());
-                        output.accept(RacconsItems.SURROUNDED_BY_INK.get());
 
 
 
@@ -45,7 +44,19 @@ public class RacconsModCreativeTabs {
                                     output.accept(RacconsBlocks.INK_SLIDE.get());
                                     output.accept(RacconsBlocks.INK_MELT.get());
 
+                                    //Blushing Tree Tree =w=
+                                    output.accept(RacconsBlocks.Blushing_Ash_Leaves.get());
+                                    output.accept(RacconsBlocks.Blushing_Ash_Log.get());
+                                    output.accept(RacconsBlocks.Stripped_Blushing_Ash_log.get());
+                                    output.accept(RacconsBlocks.Blushing_Ash_Wood.get());
+                                    output.accept(RacconsBlocks.Stripped_Blushing_Ash_wood.get());
 
+                                    //Furry Tree ... wait its Black Ink Elm tree =3 but idk im furry =3
+                                    output.accept(RacconsBlocks.Black_Ink_Elm_Leaves.get());
+                                    output.accept(RacconsBlocks.Black_Ink_Elm_Log.get());
+                                    output.accept(RacconsBlocks.Stripped_Black_Ink_Elm_log.get());
+                                    output.accept(RacconsBlocks.Black_Ink_Elm_Wood.get());
+                                    output.accept(RacconsBlocks.Stripped_Black_Ink_Elm_wood.get());
 
                                 }).build());
 

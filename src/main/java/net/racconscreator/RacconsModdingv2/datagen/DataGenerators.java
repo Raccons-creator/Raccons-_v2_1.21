@@ -36,6 +36,7 @@ public class DataGenerators {
 
         generator.addProvider(event.includeClient(), new RacconsMod_BlocksStateProvider(packOutput, existingFileHelper));
 
-        generator.addProvider(event.includeServer(), new Raccons_DataEntries(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), new RacconsMod_DatapackEntries(packOutput, lookupProvider));
+
     }
 }

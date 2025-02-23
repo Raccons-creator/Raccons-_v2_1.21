@@ -59,9 +59,7 @@ public class Raccons_Sounds {
 
 
 //Songs =3
-    public static final RegistryObject<SoundEvent> Surrounded_by_Ink = registerSoundEvent("surrounded_by_ink");
-    public static final ResourceKey<JukeboxSong> Surrounded_by_Ink_key = ResourceKey.create(Registries.JUKEBOX_SONG,
-            ResourceLocation.fromNamespaceAndPath(RacconsModdingv2.MODID, "surrounded_by_ink"));
+
 
 
 

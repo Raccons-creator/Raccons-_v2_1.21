@@ -1,22 +1,34 @@
 {
+  "item.racconsmodid.inkblight_fur": "InkBlight´s Fur",
   "item.racconsmodid.raccons_fur": "Raccon´s Fur",
+
+
   "item.racconsmodid.clam": "Clam",
   "item.racconsmodid.cooked_clam": "Cooked Clam",
+  "item.racconsmodid.inkberry_tart": "-=InkBerry Tart=-",
+
+
+  "item.racconsmodid.raccoon": "-=Raccoon=-",
+  "item.racconsmodid.lunarflare": "LunarFlare",
   "item.racconsmodid.ink": "InK",
   "item.racconsmodid.racconspawnegg": "Raccon´s Spawn Egg =3",
 
-  "item.racconsmodid.surrounded_by_ink_disc": "-=Surrounded by Ink=-",
-  "item.racconsmodid.surrounded_by_ink_disc.desc": "Raccon´s World: Chapter 1 - Surrounded by Ink",
+
 
   "item.racconsmodid.scytheofink": "Scythe Of Ink",
   "item.racconsmodid.swordofink": "Psic Of Ink",
   "item.racconsmodid.theshefer": "The Shefer",
   "item.racconsmodid.the_big_cannon": "The Big Cannon",
+  "item.racconsmodid.ttt": "TTT",
+  "item.racconsmodid.the_ink_helling": "The Ink´s Helling",
+
 
   "item.racconsmodid.raccons_1": "Raccon´s Hat",
   "item.racconsmodid.raccons_2": "Raccon´s Cloak",
   "item.racconsmodid.raccons_3": "Raccon´s Pants",
   "item.racconsmodid.raccons_4": "Raccon´s Shoes",
+  "item.racconsmodid.raccons_mask": "Raccon´s Mask",
+  "item.racconsmodid.raccons_mask_glow": "Raccon´s Mask - §eGlowing§r",
 
 
 
@@ -25,10 +37,28 @@
   "block.racconsmodid.ink_slide": "Ink Slide",
   "block.racconsmodid.ink_melt": "Ink Melt",
 
+  "block.racconsmodid.blushing_ash_log": "Blushing Ash Log",
+  "block.racconsmodid.blushing_ash_wood": "Blushing Ash Wood",
+  "block.racconsmodid.stripped_blushing_ash_log": "Stripped Blushing Ash Log",
+  "block.racconsmodid.stripped_blushing_ash_wood": "Stripped Blushing Ash Wood",
+  "block.racconsmodid.blushing_ash_planks": "Blushing Ash Planks",
+  "block.racconsmodid.blushing_ash_sapplings": "Blushing Ash Sappling",
+  "block.racconsmodid.blushing_ash_leaves": "Blushing Ash Leaves",
+
+
+  "block.racconsmodid.black_ink_elm_log": "Black Ink Elm Log",
+  "block.racconsmodid.black_ink_elm_wood": "Black Ink Elm Wood",
+  "block.racconsmodid.stripped_black_ink_elm_log": "Stripped Black Ink Elm Log",
+  "block.racconsmodid.stripped_black_ink_elm_wood": "Stripped Black Ink Elm Wood",
+  "block.racconsmodid.black_ink_elm_planks": "Black Ink Elm Planks",
+  "block.racconsmodid.black_ink_elm_sappling": "Black Ink Elm Sappling",
+  "block.racconsmodid.black_ink_elm_leaves": "Black Ink Elm Leaves",
 
 
   "creativetab.racconsmodid.rw_blocks_": "Raccon´s World - Blocks",
   "creativetab.racconsmodid.rw_items_": "Raccon´s World - Items",
+
+
 
   "tooltip.racconsmodid.schytheofink.shift_down": "The hell is from above KKKKKKKKK!!!",
   "tooltip.racconsmodid.schytheofink": "§eShift§r For More Description",
@@ -36,10 +66,38 @@
   "tooltip.racconsmodid.theshefer.shift_down": "Looks like im dead =3",
   "tooltip.racconsmodid.theshefer": "§eShift§r For More Description",
 
+  "tooltip.racconsmodid.swordofink.shift_down": "why i am here who are kkkkkkkkkkk",
+  "tooltip.racconsmodid.swordofink": "§eShift§r For More Description",
+
+  "tooltip.racconsmodid.lunarflare.shift_down": "WTF IS THAT !!!",
+  "tooltip.racconsmodid.lunarflare": "§eShift§r For More Description",
+
+  "tooltip.racconsmodid.long_sword.shift_down": "",
+  "tooltip.racconsmodid.long_sword": "§eShift§r For More Description",
+
+  "tooltip.racconsmodid.raccons_mask.shift_down": "",
+  "tooltip.racconsmodid.raccons_mask":"§eShift§r For More Description",
+
+  "tooltip.racconsmodid.raccons_mask_glowing.shift_down": "",
+  "tooltip.racconsmodid.raccons_mask_glowing":"§eShift§r For More Description",
+
+  "tooltip.racconsmodid.the_ink_helling.shift_down": "",
+  "tooltip.racconsmodid.the_ink_helling":"§eShift§r For More Description",
+
+  "tooltip.racconsmodid.custom_bow.shift_down": "",
+  "tooltip.racconsmodid.custom_bow":"§eShift§r For More Description",
+
+  "tooltip.racconsmodid.raccoon.shift_down": "WTF why i have this KKKKKKK",
+  "tooltip.racconsmodid.raccoon":"§eShift§r For More Description",
+
+
+
   "effect.racconsmodid.tkomk": "The Killer Of My King",
+  "effect.racconsmodid.raccons_curse": " ",
 
   "enchantment.racconsmodid.ink_followers": "Ink´s Followers Enchantment",
 
-"entity.racconsmodid.raccon": "-=Raccon=-"
-
+"entity.racconsmodid.raccon": "-=Raccon=-",
+  "entity.racconsmodid.ttt_entity": "TTT",
+  "entity.racconsmodid.ink_blight": "Ink Blight"
 }

@@ -1,6 +1,7 @@
 package net.racconscreator.RacconsModdingv2.event;
 
 
+import net.minecraft.advancements.critereon.UsedTotemTrigger;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ComputeFovModifierEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -22,6 +23,30 @@ public class Raccons_ClientEvent {
                 deltaTicks *= deltaTicks;
             }
             fovModifier *= 1f - deltaTicks * 0.15f;
+            event.setNewFovModifier(fovModifier);
+        }
+        if(event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == RacconsItems.TTT.get()) {
+            float fovModifier = 0.5f;
+            int ticksUsingItem = event.getPlayer().getTicksUsingItem();
+            float deltaTicks = (float)ticksUsingItem / 10f;
+            if(deltaTicks > 0.5f) {
+                deltaTicks = 0.5f;
+            } else {
+                deltaTicks *= deltaTicks;
+            }
+            fovModifier *= 0.5f - deltaTicks * 0.15f;
+            event.setNewFovModifier(fovModifier);
+        }
+        if(event.getPlayer().isUsingItem() && event.getPlayer().getUseItem().getItem() == RacconsItems.LunarFlare.get()) {
+            float fovModifier = 1.2f;
+            int ticksUsingItem = event.getPlayer().getTicksUsingItem();
+            float deltaTicks = (float)ticksUsingItem / 10f;
+            if(deltaTicks > 1.2f) {
+                deltaTicks = 1.2f;
+            } else {
+                deltaTicks *= deltaTicks;
+            }
+            fovModifier *= 1.2f - deltaTicks * 0.15f;
             event.setNewFovModifier(fovModifier);
         }
     }

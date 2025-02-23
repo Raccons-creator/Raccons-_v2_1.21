@@ -1,11 +1,15 @@
-// 1.21	2024-12-18T15:43:53.2634654	Tags for minecraft:item mod id racconsmodid
+// 1.21	2025-02-20T20:29:02.4593914	Tags for minecraft:item mod id racconsmodid
 db44a0f16c2f496a751ef23c1b68727bdc2e5b3e data/minecraft/tags/item/enchantable/armor.json
+7d8acb38c430b0a6e9c6135e668c23bf9ed5e95a data/minecraft/tags/item/enchantable/bow.json
 37e141ade31e948ebbcfde57bd836cb4ee196597 data/minecraft/tags/item/enchantable/chest_armor.json
 db44a0f16c2f496a751ef23c1b68727bdc2e5b3e data/minecraft/tags/item/enchantable/durability.json
 de09e0a304a087c9bea8c37cab27dbf861d67d60 data/minecraft/tags/item/enchantable/foot_armor.json
 2cae40658db7baf1007eaf1e9dd64942019dffcc data/minecraft/tags/item/enchantable/head_armor.json
 da6d234cda243f0b1fc945841667653e3b3192a7 data/minecraft/tags/item/enchantable/leg_armor.json
-43fc0a0d1984ebd9479e394fa601c83f736d61f5 data/minecraft/tags/item/enchantable/sharp_weapon.json
-43fc0a0d1984ebd9479e394fa601c83f736d61f5 data/minecraft/tags/item/enchantable/sword.json
+7a2e2bec4bd20a2c70a490709f75aabc3deff14c data/minecraft/tags/item/enchantable/sharp_weapon.json
+67ff52592a02779bd3ade185fe0f13d3f8ef676b data/minecraft/tags/item/enchantable/sword.json
 43fc0a0d1984ebd9479e394fa601c83f736d61f5 data/minecraft/tags/item/enchantable/weapon.json
+c98ea48b96c90221d9e06b147fde0777ad4ab34f data/minecraft/tags/item/logs_that_burn.json
+2d3391823d168f4f74c157f7063a3cf8ffba41aa data/minecraft/tags/item/pickaxes.json
+0eb1ba4da543ddfdfaae9a11877b2da6b9f6b009 data/minecraft/tags/item/planks.json
 db44a0f16c2f496a751ef23c1b68727bdc2e5b3e data/minecraft/tags/item/trimmable_armor.json

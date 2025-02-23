@@ -25,7 +25,9 @@ import net.racconscreator.RacconsModdingv2.RacconsSound.Raccons_Sounds;
 import net.racconscreator.RacconsModdingv2.effect.Raccons_Effects;
 import net.racconscreator.RacconsModdingv2.enchantment.Raccons_Enchantments_Effects;
 import net.racconscreator.RacconsModdingv2.entity.Raccons_Entities;
+import net.racconscreator.RacconsModdingv2.entity.client.Ink_Blight_Renderer;
 import net.racconscreator.RacconsModdingv2.entity.client.RacconRenderer;
+import net.racconscreator.RacconsModdingv2.entity.client.TTTProjectileEntityRenderer;
 import org.slf4j.Logger;
 
 @Mod(RacconsModdingv2.MODID)
@@ -93,6 +95,8 @@ public class RacconsModdingv2
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
 
             EntityRenderers.register(Raccons_Entities.RACCON.get(), RacconRenderer::new);
+            EntityRenderers.register(Raccons_Entities.Ink_Blight.get(), Ink_Blight_Renderer::new);
+            EntityRenderers.register(Raccons_Entities.TTT.get(), TTTProjectileEntityRenderer::new);
         }
     }
 }

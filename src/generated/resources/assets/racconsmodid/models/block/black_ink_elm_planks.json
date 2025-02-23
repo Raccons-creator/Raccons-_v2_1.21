@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "racconsmodid:block/black_ink_elm_planks"
+  }
+}

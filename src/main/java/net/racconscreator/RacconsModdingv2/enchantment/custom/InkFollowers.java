@@ -7,11 +7,12 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.enchantment.EnchantedItemInUse;
 import net.minecraft.world.item.enchantment.effects.EnchantmentEntityEffect;
 import net.minecraft.world.phys.Vec3;
 
-
+import java.util.Vector;
 
 
 public record InkFollowers() implements EnchantmentEntityEffect {
@@ -30,10 +31,11 @@ public record InkFollowers() implements EnchantmentEntityEffect {
             EntityType.EVOKER_FANGS.spawn(pLevel, pEntity.getOnPos(), MobSpawnType.TRIGGERED);
             MobEffects.HARM.get();
             EntityType.EVOKER_FANGS.spawn(pLevel, pEntity.getOnPos(), MobSpawnType.TRIGGERED);
-            MobEffects.HARM.get();
+            MobEffects.POISON.get();
         }
     }
 
+// END
     @Override
     public MapCodec<? extends EnchantmentEntityEffect> codec() {
         return CODEC;

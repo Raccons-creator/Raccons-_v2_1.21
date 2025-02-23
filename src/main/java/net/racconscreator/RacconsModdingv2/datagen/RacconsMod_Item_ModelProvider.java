@@ -1,24 +1,24 @@
 package net.racconscreator.RacconsModdingv2.datagen;
 
-import net.minecraft.client.renderer.block.model.ItemModelGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.PackType;
-import net.minecraft.world.entity.Display;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.racconscreator.RacconsModdingv2.RacconsModBlocks.RacconsBlocks;
 import net.racconscreator.RacconsModdingv2.RacconsModItems.RacconsItems;
 import net.racconscreator.RacconsModdingv2.RacconsModdingv2;
 
-import javax.xml.crypto.dsig.Transform;
 import java.util.LinkedHashMap;
 
 public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
@@ -45,16 +45,17 @@ public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
         //combat
         handheldItem(RacconsItems.SWORDOFINK);
         handheldItem(RacconsItems.THESHEFER);
+        basicItem(RacconsItems.The_Ink_Helling.get());
 
         //Item
         basicItem(RacconsItems.INK.get());
         basicItem(RacconsItems.RACCONS_FUR.get());
         basicItem(RacconsItems.ICON_TAB_1.get());
-        basicItem(RacconsItems.SURROUNDED_BY_INK.get());
 
         //food
         basicItem(RacconsItems.COOKED_CLAM.get());
         basicItem(RacconsItems.CLAM.get());
+        basicItem(RacconsItems.INKBERRY_TART.get());
 
         // Cape
         trimmedArmorItem(RacconsItems.Raccons_1);
@@ -63,6 +64,30 @@ public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
         trimmedArmorItem(RacconsItems.Raccons_4);
 
         withExistingParent(RacconsItems.RacconSpawnEgg.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        saplingItem(RacconsBlocks.Blushing_Ash_Sapplings);
+        saplingItem(RacconsBlocks.Black_Ink_Elm_Sappling);
+
+        buttonItem(RacconsBlocks.Black_Ink_Elm_button, RacconsBlocks.Black_Ink_Elm_Planks);
+        buttonItem(RacconsBlocks.Blushing_Ash_button, RacconsBlocks.Blushing_Ash_Planks);
+
+        fenceItem(RacconsBlocks.Blushing_Ash_Fence, RacconsBlocks.Blushing_Ash_Planks);
+        fenceItem(RacconsBlocks.Black_Ink_Elm_Fence, RacconsBlocks.Black_Ink_Elm_Planks);
+
+        simpleBlockItem(RacconsBlocks.Blushing_Ash_Door);
+        simpleBlockItem(RacconsBlocks.Black_Ink_Elm_Door);
+
+
+
+
+
+
+        //end
+    }
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(RacconsModdingv2.MODID,"block/" + item.getId().getPath()));
     }
 
     // Shoutout to El_Redstoniano for making this
@@ -113,6 +138,24 @@ public class RacconsMod_Item_ModelProvider extends ItemModelProvider {
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 ResourceLocation.parse("item/handheld")).texture("layer0",
+                ResourceLocation.fromNamespaceAndPath(RacconsModdingv2.MODID,"item/" + item.getId().getPath()));
+    }
+
+    public void buttonItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(RacconsModdingv2.MODID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    public void fenceItem(RegistryObject<? extends Block> block, RegistryObject<Block> baseBlock) {
+        this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(RacconsModdingv2.MODID,
+                        "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItem(RegistryObject<? extends Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                ResourceLocation.parse("item/generated")).texture("layer0",
                 ResourceLocation.fromNamespaceAndPath(RacconsModdingv2.MODID,"item/" + item.getId().getPath()));
     }
 }

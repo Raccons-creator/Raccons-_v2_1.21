@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 105,
+  "experience": 1.0,
+  "group": "cooked_clam",
+  "ingredient": {
+    "item": "racconsmodid:clam"
+  },
+  "result": {
+    "id": "racconsmodid:cooked_clam"
+  }
+}
